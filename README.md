@@ -23,15 +23,14 @@ Data cleaning and feature engineering were performed in **Python (Pandas)**, and
 
 ### ✔ 1. Loaded & Inspected Dataset  
 ### ✔ 2. Converted columns to proper DateTime  
-### ✔ 3. Removed 6 null-heavy columns (>80% missing)  
+### ✔ 3. Removed 2 null-heavy columns (>80% missing)  
 ### ✔ 4. Feature Engineering
 - Time Bucket  
 - Day/Night  
 - Weekday  
 - Estimated Revenue  
 - Payment Type (Digital / Cash)  
-- Month-Year  
-- Cancellation Flags  
+- Month-Year 
 
 ### ✔ 5. Exported cleaned CSV  
 Used as the input file for Power BI.
@@ -70,7 +69,7 @@ Used as the input file for Power BI.
 
 ---
 
-### **4️⃣ Cancellation Analysis (Replaces Ratings Page)**
+### **4️⃣ Cancellation Analysis
 - Cancellations by customer  
 - Cancellations by driver  
 - Reason distribution  
@@ -84,12 +83,6 @@ Used as the input file for Power BI.
 - Customer & driver ratings  
 - Luxury vehicle highlight  
 - Monthly performance trend  
-
----
-
-### **6️⃣ Uber Auto Spotlight**
-### **7️⃣ Uber Bike Spotlight**
-Same structure as Premier, tailored per vehicle tier.
 
 ---
 
@@ -116,31 +109,6 @@ Same structure as Premier, tailored per vehicle tier.
 
 ---
 
-## 📁 Repository Structure
-
-```
-Uber-Multi-Tier-Mobility-Analysis/
-│
-├── data/
-│   └── cleaned_uber_bookings.csv
-│
-├── notebooks/
-│   └── preprocessing.ipynb
-│
-├── powerbi/
-│   └── Uber_Mobility_Analysis.pbix
-│
-├── images/
-│   ├── premier.png
-│   ├── overview.png
-│   ├── revenue.png
-│   └── ...
-│
-└── README.md
-```
-
----
-
 ## ▶️ How to Use
 
 ### **View Dashboard**
@@ -149,15 +117,4 @@ Download `.pbix` → Open in Power BI Desktop.
 ### **Re-run Preprocessing**
 Open notebook → Run all cells → Generate cleaned CSV.
 
----
-
-## 👨‍💻 Author
-
-**Shriyansh**  
-Data Analyst | Python | Power BI | SQL  
-
----
-
-## 📄 License
-MIT (optional)
 
