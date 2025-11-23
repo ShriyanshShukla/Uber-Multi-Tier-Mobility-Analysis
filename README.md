@@ -1,7 +1,5 @@
 # Uber Multi-Tier Mobility Analysis
 
-*A complete data cleaning, transformation, and Power BI analytics project using Uber NCR dataset*
-
 ![Uber Premier](Images/Uber_Premier.png)
 
 ---
