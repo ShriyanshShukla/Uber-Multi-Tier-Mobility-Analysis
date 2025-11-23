@@ -2,7 +2,7 @@
 
 *A complete data cleaning, transformation, and Power BI analytics project using Uber NCR dataset*
 
-![Uber Premier Spotlight](Screenshot_2025-11-24_015714.png)
+![Uber Premier](Images/Uber_Premier.png)
 
 ---
 
